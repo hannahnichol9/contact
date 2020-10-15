@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Contact | Blue Sky Baking</title>
+        <link href="css/main.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="headerBar">
+            <div id="headerContainer">
+                <h2 id="title" class="fancyText">Blue Sky Baking</h2>
+                <h4 style="text-align: center;">If you can dream it, we can cake it!</h4>
+                <div id="headerBottomContainer" class="coloured">
+                    <div id="menuContainer">
+                        <a class="headerButton"><h4>Home</h4></a>
+                        <a class="headerButton"><h4>Menu</h4></a>
+                        <a class="headerButton"><h4>Gallery</h4></a>
+                        <a class="headerButton"><h4>Contact</h4></a>
+                    </div>
+                    <a href="https://www.instagram.com/bluesky_baking/" id="instagramLink">
+                        <img src="img/Instagram.webp">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="page">
+            <div class="left coloured wrap" style="margin-top: 60px; margin-bottom: 60px;">
+                <div style="line-height: 30px;">
+                    <h3 class="fancyText fullWidth">Get a Quote</h3>
+                    Need a cake or cupcakes for your special event? Add your<br>information below and we will get in touch!
+                    <br><br>
+                    Please include:
+                    <br>- The size of cake or number of cupcakes
+                    <br>- The flavors of the cake, frosting, and filling
+                    <br>- Any special decoration or design requests
+                    <br>- When you need the cake or cupcakes
+                </div>
+                <form action="https://formspree.io/f/xknpjpdo" method="POST" style="text-align: right; margin-top: 40px;">
+                    <input type="text" name="Name" placeholder="Name">
+                    <input type="text" name="Address" placeholder="Address">
+                    <input type="text" name="Email" placeholder="Email">
+                    <input type="text" name="Phone" placeholder="Phone">
+                    <textarea name="Message" placeholder="Type your message here..."></textarea>
+                    <button id="formSubmit" type="submit"><div>Submit</div></button>
+                </form>
+            </div>
+            <div class="right justifyLeft" style="margin-top: 60px; margin-bottom: 60px;">
+                <img src="img/cakePhoto.jpg" style="object-fit: cover; width: 90%; height: 100%">
+            </div>
+            <div class="both coloured wrap" style="grid-row: auto; height: 200px;">
+                <div>
+                    <h2 class="fancyText fullWidth">Blue Sky Baking</h2>
+                    <p>
+                        bskybaking@gmail.com
+                        <br>
+                        5875785852
+                        <br>
+                        Calgary, Alberta
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
